@@ -9,6 +9,7 @@ class Window(QWidget):
         self.layoutV.addWidget(self.obj2)
         self.setLayout(self.layoutV)
 
+
 if __name__ == "__main__":
    app = QApplication([])
    win = Window()
